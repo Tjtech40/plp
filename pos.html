@@ -7,15 +7,31 @@
     <title>tjtech_pos</title>
 </head>
 <body>
-    <header>
-        <h1>TJ TECH SALES SYSTEM</h1>
-    </header>
-    <SECtion>
-        <label for="item_name">ITEM</label>
-        <input type="text" name="item" id="item_name"> 
-        <label for="item_id">ITEM Code</label>
-        <input type="number" name="code" id="item_id">
-    </SECtion>
+  
+    <div>
+        <header>
+            <h1>WELCOME TJ_TECH</h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>  <a href="pos.html">POS</a></li>
+                <li><a href="stock.html">STOCK_MS</a></li>
+                <li><a href="about_us">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          
+        </header>
+    </div>
+    <div>
+        <form action="pos.php" method="post">
+        
+                <label for="item_name">ITEM</label>
+                <input type="text" name="item" id="item_name"> 
+                <label for="item_id">ITEM Code</label>
+                <input type="text" name="code" id="item_id">
+                <input type="submit" name="submitbutton" id="submitButton">
+        </form>
+    </div>
+   
   
 </body>
 </html>

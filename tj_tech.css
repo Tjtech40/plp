@@ -1,4 +1,54 @@
 header{
-    background-color: cornflowerblue;
-    border: solid;
+    background-color: rgb(249, 250, 252);
+    
 }
+h1{
+    text-align: center;
+}
+li{
+    display:inline;
+    background-color: rgb(238, 242, 247);
+    
+}
+a{
+    color: rgb(42, 44, 165);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: rgb(244, 245, 247);
+}
+a:hover{
+    background-color: gold;
+}
+a:active{
+    background-color: green;
+}
+
+img{vertical-align: middle;}
+
+section{
+    background-color: rgb(242, 244, 247);
+    border: solid;
+    border-color: rgb(183, 214, 241);
+    
+}
+pre{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    background-color: rgb(244, 247, 250);
+    font-size: 00px;
+    color: black;
+}
+body{
+    background-color: rgb(235, 239, 245);
+}
+footer{
+    align-self: baseline;
+    
+}
+img{
+    width: min-content;
+}
+
